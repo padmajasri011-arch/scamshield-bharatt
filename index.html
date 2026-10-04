@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ScamShield Bharat — Investor Safety AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="aurora a1"></div><div class="aurora a2"></div><div class="grid"></div>
+  <header class="nav">
+    <div class="brand"><span class="shield">🛡️</span> ScamShield <b>Bharat</b></div>
+    <div class="pill">AI • Investor Safety • Bharat</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">SANGYAN HACKATHON • TRACK A</div>
+      <h1>Don't let a scam<br><span>look like an opportunity.</span></h1>
+      <p class="sub">Scan suspicious investment messages, uncover red flags, and understand what to do next — in simple language.</p>
+      <div class="hero-chips"><span>🇮🇳 Bharat-first</span><span>🔎 Explainable</span><span>🔐 Privacy-first</span><span>🧠 AI-assisted</span></div>
+    </section>
+
+    <section class="scanner card">
+      <div class="card-head">
+        <div><div class="mini">LIVE PROTOTYPE</div><h2>Check a suspicious message</h2></div>
+        <button id="sampleBtn" class="ghost">Try sample</button>
+      </div>
+      <textarea id="input" placeholder="Paste a WhatsApp / Telegram / social-media investment message here..."></textarea>
+      <div class="toolbar">
+        <span>We never need your OTP, password or bank credentials.</span>
+        <button id="analyzeBtn" class="primary">🔍 Analyze safely</button>
+      </div>
+    </section>
+
+    <section id="result" class="result hidden">
+      <div class="risk card">
+        <div class="risk-top"><span id="levelBadge" class="badge">—</span><span id="scoreText">Risk score —</span></div>
+        <div class="score"><div id="scoreRing" class="ring"><b id="score">0</b><small>/100</small></div>
+          <div><h2 id="summary">Analysis</h2><p>Prototype signal only — not a financial recommendation.</p></div>
+        </div>
+      </div>
+      <div class="card flags"><div class="mini">WHY IT LOOKS SUSPICIOUS</div><h2>Detected warning signs</h2><div id="flagsList"></div></div>
+      <div class="card actions"><div class="mini">SAFER NEXT STEPS</div><h2>Pause. Verify. Protect.</h2><div id="actionsList"></div></div>
+    </section>
+
+    <section class="how">
+      <div><div class="mini">HOW IT WORKS</div><h2>From suspicious message to safer decision.</h2></div>
+      <div class="steps">
+        <div><b>01</b><span>Paste or upload content</span></div>
+        <div><b>02</b><span>Detect risk patterns</span></div>
+        <div><b>03</b><span>Explain the red flags</span></div>
+        <div><b>04</b><span>Give safety-first actions</span></div>
+      </div>
+    </section>
+
+    <section class="notice">
+      <span>⚠️</span><div><b>Safety by design</b><br>ScamShield Bharat does not provide buy/sell/hold advice or predict investment outcomes. It helps users recognize potentially harmful content and encourages independent verification.</div>
+    </section>
+  </main>
+
+  <footer>Built for SANGYAN • Public-good technology for safer investors 🇮🇳</footer>
+  <script src="app.js"></script>
+</body>
+</html>
